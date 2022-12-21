@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+# services
+order-service: http://localhost:8081/
+auth-service: http://localhost:8180/
+
+# default-values
+secret-key: "secret-key" # for JWT Token
